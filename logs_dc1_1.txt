@@ -1,0 +1,102 @@
+lr 0.003; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer Adam; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.047286   0.024304   0.993     
+    1      0.036737   0.025419   0.99      
+    2      0.033547   0.024463   0.9895    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.037052   0.027533   0.989     
+    1      0.040078   0.033377   0.9855    
+    2      0.02229    0.026047   0.989     
+    3      0.042078   0.046425   0.983     
+    4      0.021213   0.033787   0.9865    
+    5      0.011413   0.025023   0.9905    
+    6      0.003685   0.02388    0.993     
+lr 0.003; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer Adam; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.038155   0.025533   0.9895    
+    1      0.041762   0.025828   0.991     
+    2      0.03648    0.025298   0.9905    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.043822   0.02715    0.9875    
+    1      0.048929   0.039173   0.983     
+    2      0.018888   0.023931   0.9895    
+    3      0.039681   0.037959   0.9855    
+    4      0.024155   0.028859   0.9895    
+    5      0.010893   0.034107   0.988     
+    6      0.007163   0.031477   0.99      
+lr 0.003; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer Adam; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.036415   0.023491   0.991     
+    1      0.035914   0.025747   0.99      
+    2      0.037109   0.026729   0.9895    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.053028   0.023213   0.9895    
+    1      0.04575    0.026034   0.9905    
+    2      0.017532   0.026031   0.99      
+    3      0.038564   0.055273   0.9775    
+    4      0.023273   0.032929   0.9875    
+    5      0.009583   0.026188   0.989     
+    6      0.008632   0.023618   0.9915    
+lr 0.003; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer Adam; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.049137   0.026125   0.9925    
+    1      0.036307   0.023935   0.991     
+    2      0.037165   0.02319    0.99      
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.046466   0.024896   0.9915    
+    1      0.058171   0.028822   0.989     
+    2      0.027572   0.021112   0.9915    
+    3      0.049377   0.059878   0.9745    
+    4      0.019972   0.029925   0.989     
+    5      0.007866   0.028551   0.991     
+    6      0.00482    0.031606   0.99      
+lr 0.003; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer Adam; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.036414   0.02223    0.9905    
+    1      0.036123   0.02559    0.989     
+    2      0.031903   0.024293   0.989     
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.035886   0.027403   0.9885    
+    1      0.051556   0.036037   0.9845    
+    2      0.01547    0.020436   0.9925    
+    3      0.044527   0.048987   0.981     
+    4      0.024138   0.033029   0.9895    
+    5      0.007145   0.026936   0.9925    
+    6      0.004052   0.027006   0.9915    
+lr 0.003; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer Adam; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.03779    0.024685   0.9915    
+    1      0.050177   0.028098   0.989     
+    2      0.036195   0.0254     0.99      
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.040997   0.027028   0.9895    
+    1      0.04997    0.031104   0.99      
+    2      0.019853   0.025012   0.9905    
+    3      0.046048   0.032706   0.9875    
+    4      0.027684   0.035964   0.9875    
+    5      0.005296   0.027173   0.99      
+    6      0.015134   0.02911    0.9905    

@@ -1,0 +1,85 @@
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.094772   0.036227   0.988     
+    1      0.053828   0.029723   0.988     
+    2      0.049331   0.028115   0.989     
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.053171   0.024648   0.991     
+    1      0.031626   0.025027   0.991     
+    2      0.015143   0.022304   0.993     
+    3      0.017592   0.026227   0.9885    
+    4      0.010889   0.024375   0.9915    
+    5      0.008478   0.023518   0.9915    
+    6      0.008506   0.024557   0.9915    
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.081982   0.025037   0.992     
+    1      0.05621    0.022536   0.992     
+    2      0.045007   0.025102   0.9895    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.051035   0.024315   0.988     
+    1      0.030641   0.022247   0.989     
+    2      0.015282   0.019684   0.992     
+    3      0.019089   0.021964   0.9905    
+    4      0.012915   0.021565   0.991     
+    5      0.012345   0.016777   0.9925    
+    6      0.00656    0.018306   0.9925    
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.078298   0.030791   0.9915    
+    1      0.05876    0.031194   0.9915    
+    2      0.052223   0.027656   0.992     
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.046947   0.029926   0.9885    
+    1      0.040589   0.024552   0.988     
+    2      0.018292   0.021491   0.9915    
+    3      0.019303   0.026625   0.9915    
+    4      0.011843   0.023594   0.992     
+    5      0.008786   0.024634   0.992     
+    6      0.009232   0.026831   0.991     
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.073883   0.039041   0.9895    
+    1      0.056689   0.0332     0.991     
+    2      0.039866   0.028973   0.9895    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.051046   0.022187   0.991     
+    1      0.035547   0.022545   0.9905    
+    2      0.022926   0.018742   0.9925    
+    3      0.02153    0.022462   0.9895    
+    4      0.008753   0.020218   0.994     
+    5      0.009165   0.022217   0.992     
+    6      0.004911   0.020504   0.9925    
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CAR; num_cycles 3; cycle_len 1; cycle_mult (1, 2); lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.059166   0.031457   0.987     
+    1      0.041402   0.028639   0.988     
+    2      0.041816   0.02299    0.9885    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.036648   0.024972   0.9915    
+    1      0.028572   0.026857   0.9885    
+    2      0.020108   0.023362   0.989     
+    3      0.016873   0.022478   0.991     
+    4      0.012286   0.022954   0.991     
+    5      0.009023   0.018135   0.9935    
+    6      0.007095   0.018505   0.9935    

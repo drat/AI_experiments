@@ -1,0 +1,96 @@
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CLR; num_cycles 3; cycle_len (1, 2); cycle_mult 1; lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.045922   0.025879   0.991     
+    1      0.043568   0.024222   0.992     
+    2      0.040962   0.026318   0.9905    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.044788   0.025733   0.9905    
+    1      0.032361   0.018212   0.994     
+    2      0.022714   0.023537   0.99      
+    3      0.018689   0.018718   0.993     
+    4      0.01219    0.018115   0.9925    
+    5      0.012961   0.015628   0.9945    
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CLR; num_cycles 3; cycle_len (1, 2); cycle_mult 1; lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.046923   0.028096   0.9875    
+    1      0.045489   0.024781   0.992     
+    2      0.04891    0.025575   0.9905    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.050511   0.033205   0.987     
+    1      0.027691   0.018455   0.993     
+    2      0.026777   0.021006   0.992     
+    3      0.017184   0.018914   0.992     
+    4      0.017093   0.023684   0.991     
+    5      0.012484   0.020553   0.992     
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CLR; num_cycles 3; cycle_len (1, 2); cycle_mult 1; lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.044684   0.024853   0.991     
+    1      0.044358   0.026949   0.9905    
+    2      0.039546   0.025074   0.9885    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.047254   0.030824   0.987     
+    1      0.03107    0.020124   0.992     
+    2      0.026695   0.022816   0.9915    
+    3      0.015672   0.020077   0.993     
+    4      0.009109   0.022222   0.992     
+    5      0.011712   0.022575   0.9905    
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CLR; num_cycles 3; cycle_len (1, 2); cycle_mult 1; lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.053295   0.027522   0.99      
+    1      0.040343   0.026535   0.9915    
+    2      0.037176   0.02871    0.99      
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.052968   0.032327   0.9885    
+    1      0.025917   0.021621   0.992     
+    2      0.020845   0.022479   0.9915    
+    3      0.01442    0.024568   0.992     
+    4      0.015292   0.023004   0.9925    
+    5      0.010972   0.024717   0.9925    
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CLR; num_cycles 3; cycle_len (1, 2); cycle_mult 1; lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.04695    0.033586   0.986     
+    1      0.038534   0.030792   0.9895    
+    2      0.035996   0.029518   0.9905    
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.049656   0.03012    0.987     
+    1      0.026678   0.022694   0.99      
+    2      0.020877   0.026135   0.992     
+    3      0.014346   0.024795   0.9905    
+    4      0.014809   0.02545    0.99      
+    5      0.01091    0.023933   0.991     
+lr 0.02; max_mom 0.9; batch_size 64; min_mom None; weight_decay 0 train_method CLR; num_cycles 3; cycle_len (1, 2); cycle_mult 1; lr_div 10; pct_relax 0.1; optimizer SGD; beta None; wd_in_loss True; snapshot_ensemble False; use_swa False; amsgrad False
+
+Phase1
+epoch      trn_loss   val_loss   metric     
+    0      0.049984   0.025839   0.989     
+    1      0.039444   0.02732    0.988     
+    2      0.035338   0.027      0.989     
+
+Phase2
+epoch      trn_loss   val_loss   metric     
+    0      0.048501   0.028229   0.987     
+    1      0.024442   0.018306   0.9945    
+    2      0.022328   0.039691   0.9865    
+    3      0.015973   0.022045   0.991     
+    4      0.013936   0.026114   0.989     
+    5      0.013726   0.027175   0.989     
