@@ -46,7 +46,8 @@ config['embed_p']  = 0.1
 config['hidden_p'] = 0.2
 config['qrnn'] = True
 
-learn = language_model_learner(data, AWD_LSTM, config=config, pretrained=False, clip=0.1, alpha=2, beta=1)
+learn = language_model_learner(data, AWD_LSTM, config=config, pretrained=False, clip=None, alpha=2, beta=1)
+learn = learn.to_fp16(clip=0.1)
 learn.fit_one_cycle(90,5e-3)
 
 class Perplexity(Callback):
