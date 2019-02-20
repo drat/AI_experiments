@@ -1,6 +1,6 @@
 from fastai.text import * 
 import fastprogress
-fastprogress.fastprogress.SAVE_PATH = 'log.txt'
+fastprogress.fastprogress.SAVE_PATH = 'fastec2/spot2/log.txt'
 
 path = Config().data_path()/'wikitext-2'
 
